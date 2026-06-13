@@ -58,17 +58,12 @@ Telephony Provider (WebSocket audio stream)
 ## 📁 Project Structure
 
 ```
-realtime-call-intelligence/
-├── src/
-│   ├── server.py              # Main WebSocket server
-│   └── start_tunnel.py        # ngrok / cloudflared tunnel launcher
-├── models/
-│   └── train_intent_model.py  # Trains and saves the intent classifier
-├── results/
-│   └── sample_call_transcript.json   # Example output format
-├── requirements.txt
-├── .gitignore
-└── README.md
+speech-to-text/
+├── train_model.py       # The code to train the intent classifier
+├── server.py            # The main websocket server logic
+├── requirements.txt     # List of libraries to install
+├── .gitignore           # Files for Git to ignore (like the .pkl model)
+└── README.md            # Project documentation
 ```
 
 ---
