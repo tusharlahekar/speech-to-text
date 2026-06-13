@@ -1,0 +1,4 @@
+*.pkl
+*.wav
+__pycache__/
+.env
