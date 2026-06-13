@@ -1,0 +1,12 @@
+faster-whisper
+resemblyzer
+pyngrok
+websockets
+librosa
+transformers
+accelerate
+nest_asyncio
+sentence-transformers
+scikit-learn
+torch
+numpy
